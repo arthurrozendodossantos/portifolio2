@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Currículo de Arthur Rozendo</title>
+<style>
+  /* Reset e base */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  body {
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #6b8dd6, #a0c1f7);
+    color: #222;
+    scroll-behavior: smooth;
+  }
+  a {
+    color: #355fc7;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #273c75cc;
+    backdrop-filter: saturate(180%) blur(10px);
+    color: #fff;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 0.2);
+  }
+  nav {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+  }
+  nav .logo {
+    font-weight: 700;
+    font-size: 1.4rem;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1.3rem;
+  }
+  nav ul li {
+    font-weight: 500;
+  }
+  nav ul li a {
+    font-size: 1rem;
+  }
+  main {
+    margin-top: 70px;
+    max-width: 900px;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgb(0 0 0 / 0.15);
+    padding: 2rem 2.5rem;
+  }
+  h1, h2 {
+    color: #273c75;
+    margin-bottom: 0.5rem;
+  }
+  h1 {
+    font-weight: 900;
+    font-size: 2.8rem;
+  }
+  h2 {
+    font-weight: 700;
+    border-bottom: 3px solid #355fc7;
+    padding-bottom: 0.35rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  section p, section li {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.5;
+    color: #444;
+  }
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+  /* Accordion style */
+  details {
+    border: 1px solid #273c75;
+    border-radius: 6px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+    background: #e9f0ff;
+    cursor: pointer;
+  }
+  details summary {
+    font-weight: 700;
+    font-size: 1.1rem;
+    outline: none;
+  }
+  details[open] {
+    background: #d7e1ff;
+    box-shadow: 0 0 12px rgba(53, 95, 199, 0.5);
+  }
+  details p, details ul {
+    margin-top: 0.75rem;
+    margin-left: 1rem;
+  }
+  /* Link buttons for portfolio / projects */
+  .btn-link {
+    display: inline-block;
+    background-color: #355fc7;
+    color: white;
+    padding: 0.35rem 0.8rem;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 0.6rem;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  .btn-link:hover, .btn-link:focus {
+    background-color: #273c75;
+  }
+  footer {
+    text-align: center;
+    color: #ddd;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+  }
+  /* Responsive */
+  @media (max-width: 600px){
+    nav {
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+    nav ul {
+      flex-direction: column;
+      gap: 0.6rem;
+      width: 100%;
+      align-items: center;
+    }
+    main {
+      padding: 1.5rem 1.5rem;
+      margin: 75px 1rem 20px 1rem;
+    }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Miguel Souza Lins</div>
+      <ul>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#informacoes">Informações</a></li>
+        <li><a href="#resumo">Resumo</a></li>
+        <li><a href="#competencias">Competências</a></li>
+        <li><a href="#trabalho">Trabalho</a></li>
+        <li><a href="#academico">Acadêmico</a></li>
+        <li><a href="#teatro">Teatro</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>São Paulo, Brasil</p>
+      <p>Email: <a href="mailto:00001093233059sp@al.educacao.sp.gov.br" aria-label="Email para Arthur Rozendo">0000103233059sp@al.educacao.sp.gov.br</a></p>
+      <p>Portfólio: <a href="" target="_blank" rel="noopener noreferrer"></a></p>
+    </section>
+    <section id="informacoes">
+      <h2>Informações</h2>
+      <p><strong>Idade:</strong> 17 anos</p>
+      <p><strong>Educação:</strong> Ensino Médio (ainda cursando)</p>
+      <p><strong>Escola:</strong> Escola Estadual Professor Astrogildo Arruda</p>
+      <p><strong>Vestibular ENEM:</strong> Ainda irá realizar</p>
+      <p><strong>Meta de universidades:</strong> Michigan State, Penn State, North Carolina, South Carolina University, Universidade Loyola de Nova Orleans</p>
+    </section>
+    <section id="resumo">
+      <h2>Resumo Pessoal</h2>
+      <p>Possuo certos conhecimentos sobre a área de tecnologia, mas procuro interesse também na área de humanas, com projeto de vida em Engenharia Civil ou Mecânica. Trabalharia com economia, negócios ou como professor de história.</p>
+    </section>
+    <section id="competencias">
+      <h2>Principais Competências</h2>
+      <ul>
+        <li>Criatividade na busca por ideias e soluções para situações diversas.</li>
+        <li>Valorizo ouvir opiniões da equipe com a qual trabalho.</li>
+        <li>Busco inovar em projetos, propondo ideias originais.</li>
+      </ul>
+    </section>
+    <section id="trabalho">
+      <h2>Histórico de Trabalho</h2>
+      <details>
+        <summary>Listas, Funções e Repetição: Criando um Jogo de Corrida (PT. 1)</summary>
+        <p><a class="btn-link" href="https://editor.p5js.org/Miguel_Lins2A/sketches/m3xap-JCa" target="_blank" rel="noopener noreferrer">Visualizar Projeto 1</a></p>
+      </details>
+      <details>
+        <summary>Listas, Funções e Repetição: Criando um Jogo de Corrida (PT. 2)</summary>
+        <p><a class="btn-link" href="https://editor.p5js.org/Miguel_Lins2A/sketches/m3xaP-JCa" target="_blank" rel="noopener noreferrer">Visualizar Projeto 2</a></p>
+      </details>
+      <details>
+        <summary>Algoritmos: Criando uma Aventura com HTML, CSS e JavaScript</summary>
+        <p><a class="btn-link" href="https://github.com/2ctMLins29/Miguel_Lins--jaque2C_Rumo-ao-Estrelado.git" target="_blank" rel="noopener noreferrer">Código no GitHub</a></p>
+      </details>
+    </section>
+    <section id="academico">
+      <h2>Histórico Acadêmico</h2>
+      <ul>
+       </li> Cursando primeiro ano em curso de ingles
+      <li>Conclusao curso de gestao empresarial
+    </li>Conclusao curso de marketing 
+    </li>2024 em feira de ciencias com experimento de biologia :camaleao quimico
+        <li>2024 - Segunda Fase da OBMEP.</li>
+      </ul>
+    </section>
+    <section id="teatro">
+      <h2>Participação Teatral</h2>
+      <ul>
+        <li>Circo da Roiz(atuando como magico chimbinha).</li>
+        <li>Jornal do astro(Participação no cenario).</li>
+        <li></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>© 2023 Arthur Rozendo dos Santos. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
